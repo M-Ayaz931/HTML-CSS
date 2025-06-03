@@ -130,3 +130,24 @@ a{
 .logos img{
     width: 120px;
 }
+.feature{
+    text-align: center;
+}
+.feature h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.feature-card{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 0;
+}
+.feature-card .card{
+    width: 28%;
+    /* border: 1px solid var(--primary-text-color); */
+    text-align: center;
+}
+.feature-card .card p{
+    margin: 10px 0;
+}
